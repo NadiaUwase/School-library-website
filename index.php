@@ -22,14 +22,14 @@
                 <div>
                     <div class="nav--links">
                         <ul>
-                            <li class="active">
+                            <!-- <li class="active">
                                 <a class="active" href="./index.php">Home</a>
                             </li>
                             <li>
                                 <a href="./subjects.php">Subjects</a>
-                            </li>
+                            </li> -->
                             <li>
-                                <button class="btn btn-black btn-uppercase">login</button>
+                                <button class="btn btn-black btn-uppercase" onclick="window.location.href = 'login.php';">login</button>
                             </li>
                         </ul>
                     </div>
@@ -57,8 +57,8 @@
                     </p>
                     <h1>SMART Learning platform</h1>
                     <div>
-                        <button class="btn btn-uppercase btn-black">login</button>
-                        <button class="btn btn-uppercase btn-brown">signup</button>
+                        <button class="btn btn-uppercase btn-black" onclick="window.location.href = 'login.php';">login</button>
+                        <button class="btn btn-uppercase btn-brown" onclick="window.location.href = 'signup.php';">signup</button>
                     </div>
                 </div>
             </div>
