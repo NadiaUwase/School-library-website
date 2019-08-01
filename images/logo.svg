@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="364" height="100" viewBox="0 0 364 100">
+  <defs>
+    <clipPath id="clip-Homepage">
+      <rect width="364" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="Homepage" clip-path="url(#clip-Homepage)">
+    <rect width="364" height="100" fill="rgba(255,255,255,0)"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(-9 -8)">
+      <g id="Group_2" data-name="Group 2">
+        <g id="Group_1" data-name="Group 1">
+          <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(10 10)" fill="#fff" stroke="#000" stroke-width="3">
+            <rect width="362.071" height="96.785" rx="48.393" stroke="none"/>
+            <rect x="1.5" y="1.5" width="359.071" height="93.785" rx="46.893" fill="none"/>
+          </g>
+          <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(10 10)" fill="#fff" stroke="#000" stroke-width="3">
+            <rect width="261.766" height="96.785" rx="48.393" stroke="none"/>
+            <rect x="1.5" y="1.5" width="258.766" height="93.785" rx="46.893" fill="none"/>
+          </g>
+          <text id="SMART" transform="translate(69 70)" font-size="34" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.2em"><tspan x="0" y="0">SMART</tspan></text>
+          <path id="ic_import_contacts_24px" d="M36.195,5.38a20.773,20.773,0,0,0-6.159-.88c-3.431,0-7.127.7-9.679,2.64C17.805,5.2,14.11,4.5,10.679,4.5S3.552,5.2,1,7.14V32.92a.946.946,0,0,0,.88.88c.176,0,.264-.088.44-.088a21.478,21.478,0,0,1,8.359-1.936c3.431,0,7.127.7,9.679,2.64a21.2,21.2,0,0,1,9.679-2.64,17.911,17.911,0,0,1,8.359,1.848.793.793,0,0,0,.44.088.946.946,0,0,0,.88-.88V7.14A12,12,0,0,0,36.195,5.38Zm0,23.756a20.449,20.449,0,0,0-6.159-.88,21.2,21.2,0,0,0-9.679,2.64V10.659a21.2,21.2,0,0,1,9.679-2.64,20.449,20.449,0,0,1,6.159.88Z" transform="translate(295.795 38.5)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
