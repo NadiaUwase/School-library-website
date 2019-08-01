@@ -11,7 +11,7 @@
 
 <body>
 
-   <!-- the header of the website/ the navigation bar -->
+    <!-- the header of the website/ the navigation bar -->
     <header class="header-h header-h-unscrolled">
 
         <div class="nav-h">
@@ -47,14 +47,26 @@
     <!--  -->
     <!--  -->
     <main>
-        <!-- top -->
-        <form name="login" class="contact">
+        <!-- below is the code for the sign up form -->
+        <form name="signup" class="contact">
             <!--  -->
             <div class="input-wrapper">
-                <label for="">User Name</label>
-                <input name="username" type="text" placeholder="holder">
+                <label for="">Full Name</label>
+                <input name="name" type="text" placeholder="holder">
             </div>
             <div class="input-wrapper">
+                <label for="">Id number</label>
+                <input name="idnumber" type="idnumber" placeholder="holder">
+            </div>
+            <div class="input-wrapper">
+                <label for="">Phone number</label>
+                <input name="Phone" type="Phone" placeholder="holder">
+            </div>
+            <div class="input-wrapper">
+                <label for="">Email</label>
+                <input name="Email" type="Email" placeholder="holder">
+            </div>
+             <div class="input-wrapper">
                 <label for="">Password</label>
                 <input name="password" type="password" placeholder="holder">
             </div>

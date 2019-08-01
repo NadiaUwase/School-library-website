@@ -11,7 +11,7 @@
 
 <body>
 
-    <!-- main nav header -->
+    <!-- the header of the website/ the navigation bar -->
     <header class="header-h header-h-unscrolled">
         
         <div class="nav-h">
@@ -57,7 +57,7 @@
                     </p>
                     <h1>SMART Learning platform</h1>
                     <div>
-                        <button class="btn btn-uppercase btn-black" onclick="window.location.href = 'login.php';">login</button>
+                        <button class="btn btn-uppercase btn-black" onclick="window.location.href = 'Login.php';">login</button>
                         <button class="btn btn-uppercase btn-brown" onclick="window.location.href = 'signup.php';">signup</button>
                     </div>
                 </div>
