@@ -25,11 +25,11 @@
                             <li>
                                 <a href="./index.php">Home</a>
                             </li>
-                            <li class="active">
+                            <!-- <li class="active">
                                 <a class="active" href="./subjects.php">Subjects</a>
-                            </li>
+                            </li> -->
                             <li>
-                                <button class="btn btn-black btn-uppercase">login</button>
+                                <button class="btn btn-black btn-uppercase">logout</button>
                             </li>
                         </ul>
                     </div>

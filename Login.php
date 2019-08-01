@@ -23,17 +23,17 @@
                     <div class="nav--links">
                         <ul>
                             <li>
-                                <a href="./index.html">Home</a>
+                                <a href="./index.php">Home</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="./subjects.html">Subjects</a>
-                            </li>
+                            </li> -->
                             <li class="active">
                                 <a class="active" href="./contact.html">Contact</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <button class="btn btn-black btn-uppercase">login</button>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                     <!-- <div class="nav--profile">
