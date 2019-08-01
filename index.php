@@ -51,11 +51,11 @@
                     <div>
                         <img height="50px" src="./images/logo.svg" alt="Logo">
                     </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos totam ipsum sed sit voluptas cum
+                    <p>Welcome to our school library!. LibrariesOur aim is to serve you as best as possible b Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos totam ipsum sed sit voluptas cum
                         aperiam quam sunt in beatae? Animi nesciunt necessitatibus quidem sint recusandae, similique
                         nostrum tempore culpa.
                     </p>
-                    <h1>SMART Learning platform</h1>
+                    <h1>School Library System</h1>
                     <div>
                         <button class="btn btn-uppercase btn-black" onclick="window.location.href = 'Login.php';">login</button>
                         <button class="btn btn-uppercase btn-brown" onclick="window.location.href = 'signup.php';">signup</button>
