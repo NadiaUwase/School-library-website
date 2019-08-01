@@ -29,7 +29,7 @@
                                 <a href="./subjects.php">Subjects</a>
                             </li> -->
                             <li>
-                                <button class="btn btn-black btn-uppercase" onclick="window.location.href = 'login.php';">login</button>
+                                <button class="btn btn-black btn-uppercase" onclick="window.location.href = 'Login.php';">login</button>
                             </li>
                         </ul>
                     </div>
