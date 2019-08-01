@@ -23,10 +23,10 @@
                     <div class="nav--links">
                         <ul>
                             <li>
-                                <a href="./index.html">Home</a>
+                                <a href="./index.php">Home</a>
                             </li>
                             <li class="active">
-                                <a class="active" href="./subjects.html">Subjects</a>
+                                <a class="active" href="./subjects.php">Subjects</a>
                             </li>
                             <li>
                                 <button class="btn btn-black btn-uppercase">login</button>
@@ -55,7 +55,7 @@
                     <ul>
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Week 1: Mathematical Logic</a>
+                            <a href="./subject.php">Week 1: Mathematical Logic</a>
                             <div class="info">
                                 <span>12 quizes</span>
                             </div>
@@ -63,35 +63,35 @@
                         <!--  -->
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Week 2: Set Theory</a>
+                            <a href="./subject.php">Week 2: Set Theory</a>
                             <div class="info">
                                 <span>2 quizes</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Week 3: Relations and Functions</a>
+                            <a href="./subject.php">Week 3: Relations and Functions</a>
                             <div class="info">
                                 <span>2 quizes</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Week 4: Proofs</a>
+                            <a href="./subject.php">Week 4: Proofs</a>
                             <div class="info">
                                 <span>2 quizes</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Week 5: Mathematical Induction</a>
+                            <a href="./subject.php">Week 5: Mathematical Induction</a>
                             <div class="info">
                                 <span>2 quizes</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Week 6: Basics of Counting</a>
+                            <a href="./subject.php">Week 6: Basics of Counting</a>
                             <div class="info">
                                 <span>2 quizes</span>
                             </div>

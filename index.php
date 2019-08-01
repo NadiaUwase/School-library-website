@@ -23,10 +23,10 @@
                     <div class="nav--links">
                         <ul>
                             <li class="active">
-                                <a class="active" href="./index.html">Home</a>
+                                <a class="active" href="./index.php">Home</a>
                             </li>
                             <li>
-                                <a href="./subjects.html">Subjects</a>
+                                <a href="./subjects.php">Subjects</a>
                             </li>
                             <li>
                                 <button class="btn btn-black btn-uppercase">login</button>

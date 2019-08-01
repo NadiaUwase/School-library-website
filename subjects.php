@@ -23,13 +23,13 @@
                     <div class="nav--links">
                         <ul>
                             <li>
-                                <a href="./index.html">Home</a>
+                                <a href="./index.php">Home</a>
                             </li>
                             <li class="active">
-                                <a href="./subjects.html">Subjects</a>
+                                <a href="./subjects.php">Subjects</a>
                             </li>
                             <li>
-                                <a href="./contact.html">Contact</a>
+                                <a href="./contact.php">Contact</a>
                             </li>
                             <li>
                                 <button class="btn btn-black btn-uppercase">login</button>
@@ -58,7 +58,7 @@
                     <ul>
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Mathematical foundations for computing</a>
+                            <a href="./subject.php">Mathematical foundations for computing</a>
                             <div class="info">
                                 <span>12 topics, 12 quizes</span>
                                 <span>Coverred 5 topics</span>
@@ -66,7 +66,7 @@
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Discrete mathematics</a>
+                            <a href="./subject.php">Discrete mathematics</a>
                             <div class="info">
                                 <span>5 topics, 12 quizes</span>
                                 <span>Coverred 5 topics</span>
@@ -75,7 +75,7 @@
                         <!--  -->
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Database systems</a>
+                            <a href="./subject.php">Database systems</a>
                             <div class="info">
                                 <span>5 topics, 12 quizes</span>
                                 <span>Coverred 5 topics</span>
@@ -84,7 +84,7 @@
                         <!--  -->
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Programming 1</a>
+                            <a href="./subject.php">Programming 1</a>
                             <div class="info">
                                 <span>13 topics, 6 quizes</span>
                                 <span>Coverred 4 topics</span>
@@ -106,7 +106,7 @@
                 <div class="subj-h-t" style="background-image: url('./images/programming.jpg')">
                     <div class="overlay">
                         <h1>
-                            <a href="./subject.html">Programming 1</a>
+                            <a href="./subject.php">Programming 1</a>
                         </h1>
                         <div class="info">
                             <span>12 topics, 12 quizes</span>
@@ -131,7 +131,7 @@
                 <div class="subj-h-t" style="background-image: url('./images/discrete.jpg')">
                     <div class="overlay">
                         <h1>
-                            <a href="./subject.html">Discrete mathematics</a>
+                            <a href="./subject.php">Discrete mathematics</a>
                         </h1>
                         <div class="info">
                             <span>2 topics, 12 quizes</span>
@@ -157,7 +157,7 @@
                 <div class="subj-h-t" style="background-image: url('./images/Database.jpg')">
                     <div class="overlay">
                         <h1>
-                            <a href="./subject.html">Database System</a>
+                            <a href="./subject.php">Database System</a>
                         </h1>
                         <div class="info">
                             <span>10 topics, 12 quizes</span>
@@ -183,7 +183,7 @@
                 <div class="subj-h-t" style="background-image: url('./images/computational maths.jpg')">
                     <div class="overlay">
                         <h1>
-                            <a href="./subject.html">Mathematical foundations for computing</a>
+                            <a href="./subject.php">Mathematical foundations for computing</a>
                         </h1>
                         <div class="info">
                             <span>12 topics, 12 quizes</span>

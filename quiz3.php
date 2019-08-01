@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Subjects</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css">>
 </head>
 
 <body>
@@ -23,10 +23,10 @@
                     <div class="nav--links">
                         <ul>
                             <li>
-                                <a href="./index.html">Home</a>
+                                <a href="./index.php">Home</a>
                             </li>
                             <li class="active">
-                                <a class="active" href="./subjects.html">Subjects</a>
+                                <a class="active" href="./subjects.php">Subjects</a>
                             </li>
                             <li>
                                 <button class="btn btn-black btn-uppercase">login</button>
@@ -55,7 +55,7 @@
                     <ul>
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Week 1: Mathematical Logic</a>
+                            <a href="./subject.php">Week 1: Mathematical Logic</a>
                             <div class="info">
                                 <span>12 quizes</span>
                             </div>
@@ -63,35 +63,35 @@
                         <!--  -->
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Week 2: Set Theory</a>
+                            <a href="./subject.php">Week 2: Set Theory</a>
                             <div class="info">
                                 <span>2 quizes</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Week 3: Relations and Functions</a>
+                            <a href="./subject.php">Week 3: Relations and Functions</a>
                             <div class="info">
                                 <span>2 quizes</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Week 4: Proofs</a>
+                            <a href="./subject.php">Week 4: Proofs</a>
                             <div class="info">
                                 <span>2 quizes</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Week 5: Mathematical Induction</a>
+                            <a href="./subject.php">Week 5: Mathematical Induction</a>
                             <div class="info">
                                 <span>2 quizes</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./subject.html">Week 6: Basics of Counting</a>
+                            <a href="./subject.php">Week 6: Basics of Counting</a>
                             <div class="info">
                                 <span>2 quizes</span>
                             </div>
@@ -108,41 +108,30 @@
             <!--  -->
             <!-- subject highlight computer-->
             <div class="subj-h subj-view">
-                <div class="subj-h-t" style="background-image: url('./images/programming.jpg')">
-                    <div class="overlay">
-                        <h1>
-                            <a href="./subject.html">
-                                Week 3: Relations and Functions
-                            </a>
-                        </h1>
-                        <div class="info">
-                            <span>3 quizes</span>
-                            <span>50% Score</span>
+                <div class="subj-h-b">
+                    <!--  -->
+                    <div class="quiz">
+                        <div class="quiz-title">
+                            Quiz 3
+                        </div>
+                        <!--  -->
+                        <form id="quiz" name="quiz">
+                            <!--  -->
+                            <!--  -->
+
+                            <!--  -->
+                            <!--  -->
+                            <!-- question -->
+                            <!--  -->
+                            <!--  -->
+                        </form>
+                        <div class="form-check">
+                            <div id="results">
+                            </div>
+                            <button onclick="checkQuestions3()" class="btn btn-black">Check</button>
                         </div>
                     </div>
-                </div>
-                <div class="subj-h-b">
-                    <div class="subj-quiz-btns">
-                        <a href="./quiz1.html">Quiz 1</a>
-                        <a href="./quiz2.html">Quiz 2</a>
-                        <a href="./quiz3.html">Quiz 3</a>
-                    </div>
-                    <p>
-                        A site of this type will need a home page with links to all the modules from last trimester i.e.
-                        Mathematical foundations for computing, Discrete mathematics, Database systems and Programming
-                        1. Each module should have a page giving a brief overview of the subject and the topics covered.
-                        These pages should also allow access to quizzes on different topics. The site will require a
-                        clearly laid out interface and an attractive design to keep students engaged.
-                    </p>
-                    <p>
-                        Instructors can limit which content items you see based on date, time, individual users, course
-                        groups, and your performance on graded items. For example, your instructor restricts access to
-                        the next assignment until you complete a test. Your instructor can also require that the
-                        assignment doesn't appear until you complete the test and score at least 70 percent.Ask your
-                        instructor about content that you think may not appear
-                        for you but should. You might have to meet specific criteria.
-                    </p>
-                    <span class="students-info">45 Students enrolled</span>
+                    <!--  -->
                 </div>
             </div>
             <!--  -->
@@ -156,6 +145,10 @@
 
     </footer>
     <!--  -->
+    <script src="./js/main.js"></script>
+    <script>
+        createQuestions3();
+    </script>
 </body>
 
 </html>
