@@ -64,7 +64,7 @@
                 $("#message").click(function(){
                   $("#message").hide();
                 });
-
+ 
           
             </script>
         <!-- top -->
