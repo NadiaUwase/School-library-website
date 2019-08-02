@@ -17,8 +17,8 @@ $title = mysqli_real_escape_string($con,htmlspecialchars($_POST['title']));
 $msg="Records inserted successfully";
 header("Location:../library.php");
 }
-else
-echo "ERROR: Could not able to execute $sql. " . mysqli_error($con);
+	else
+	echo "ERROR: Could not able to execute $sql. " . mysqli_error($con);
 
 
 

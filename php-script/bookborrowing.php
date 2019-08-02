@@ -29,12 +29,12 @@ $book = mysqli_real_escape_string($con,htmlspecialchars($_POST['book']));
 $msg="Records inserted successfully";
 header("Location:../backend/index.php");
 
-else
-echo "ERROR: Could not able to execute $sql. " . mysqli_error($con);
+    else
+    echo "ERROR: Could not able to execute $sql. " . mysqli_error($con);
   }
 
 
 
 }
 
-?>
+}?>
