@@ -47,6 +47,26 @@
     <!--  -->
     <!--  -->
     <main>
+        <?php
+            if(isset($_REQUEST['msg'])){
+            $message=$_REQUEST['msg'];
+            $visibility='';
+          }
+          else{
+            $message='';
+            $visibility='hidden';
+          }
+          
+          ?>
+          <p id="message" class=" <?php echo $visibility;?>" style="color: red;cursor: not-allowed;"><?php echo $message; ?></p>
+            <script>
+              
+                $("#message").click(function(){
+                  $("#message").hide();
+                });
+
+          
+            </script>
         <!-- top -->
         <form name="login" class="contact" method="POST" action="./php-script/login.php">
             <!--  -->
