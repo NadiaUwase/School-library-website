@@ -120,7 +120,7 @@ if (!isset($_SESSION['username'])) {
                         </li>
                         <!--  -->
                         <li>
-                            <a href="library.php?pg=suggestion">Suggestion</a>
+                            <a href="library.php?pg=suggestions">Suggestion</a>
                             <div class="info">
                                 <span>2 Suggestion</span>
                             </div>
@@ -160,8 +160,8 @@ if (!isset($_SESSION['username'])) {
                 case 'register-announcement':
                     include './page/Announcement.php';
                     break;
-                case 'suggestion':
-                    include './page/Suggestion.php';
+                case 'suggestions':
+                    include './page/Suggestions.php';
                     break;
                 default:
                     include 'front-page.php';
