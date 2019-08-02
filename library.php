@@ -63,7 +63,7 @@ if (!isset($_SESSION['username'])) {
                     <ul>
                         <!--  -->
                         <li>
-                            <a href="./?pg=borrow">Borrow Book</a>
+                            <a href="library.php?pg=borrow">Borrow Book</a>
                             <div class="info">
                                 <span>12 Books</span>
                             </div>
@@ -71,56 +71,56 @@ if (!isset($_SESSION['username'])) {
                         <!--  -->
                         <!--  -->
                         <li>
-                            <a href="./?pg=return">Return Book</a>
+                            <a href="library.php?pg=return">Return Book</a>
                             <div class="info">
                                 <span>2 Borrowed book</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./?pg=record-book">New Book</a>
+                            <a href="library.php?pg=record-book">New Book</a>
                             <div class="info">
                                 <span>2 book</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./?pg=category">Book Category</a>
+                            <a href="library.php?pg=category">Book Category</a>
                             <div class="info">
                                 <span>2 Category</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./?pg=department">New Department</a>
+                            <a href="library.php?pg=department">New Department</a>
                             <div class="info">
                                 <span>2 Department</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./?pg=register-user">New Account</a>
+                            <a href="library.php?pg=register-user">New Account</a>
                             <div class="info">
                                 <span>2 Users</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./?pg=register-event">New event</a>
+                            <a href="library.php?pg=register-event">New event</a>
                             <div class="info">
                                 <span>2 Event</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./?pg=register-announcement">New announcement</a>
+                            <a href="library.php?pg=register-announcement">New announcement</a>
                             <div class="info">
                                 <span>2 Announcement</span>
                             </div>
                         </li>
                         <!--  -->
                         <li>
-                            <a href="./?pg=suggestion">Suggestion</a>
+                            <a href="library.php?pg=suggestion">Suggestion</a>
                             <div class="info">
                                 <span>2 Suggestion</span>
                             </div>
@@ -133,7 +133,41 @@ if (!isset($_SESSION['username'])) {
         </aside>
         <!-- -->
         <!-- Main contents preview -->
-        <?php include 'front-page.php';?>
+        <?php 
+            $page=$_REQUEST['pg'];
+            switch ($page) {
+                case 'borrow':
+                    include './page/Bookborrowing.php';
+                    break;
+                case 'return':
+                    include './page/return.php';
+                    break;
+                case 'record-book':
+                    include './page/BookRecords.php';
+                    break;
+                case 'category':
+                    include './page/Category.php';
+                    break;
+                case 'department':
+                    include './page/Department.php';
+                    break;
+                case 'register-user':
+                    include './page/signup.php';
+                    break;
+                case 'register-event':
+                    include './page/Events.php';
+                    break;
+                case 'register-announcement':
+                    include './page/Announcement.php';
+                    break;
+                case 'suggestion':
+                    include './page/Suggestion.php';
+                    break;
+                default:
+                    include 'front-page.php';
+                    break;
+            }
+        ?>
         <!--  -->
     </main>
     <!--  -->

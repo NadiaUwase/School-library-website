@@ -3,15 +3,15 @@
     <!-- subject highlight computer-->
     <div class="subj-h subj-view">
         <!-- below is the code for recording the books that are borrowed  -->
-        <form name="borrowedbooks" class="contact">
+        <form name="borrowedbooks" class="contact" method="POST" action="./php-script/bookborrowing.php">
             <!--  -->
             <div class="input-wrapper">
                 <label for="">Book id </label>
-                <input name="Book" type="text" placeholder="holder">
+                <input name="book" type="text" placeholder="holder">
             </div>
             <div class="input-wrapper">
                 <label for=""> Edition </label>
-                <input name="Edition" type="text" placeholder="holder">
+                <input name="edition" type="text" placeholder="holder">
             </div>
             <div class="input-wrapper">
                 <label for="">User id</label>
@@ -33,7 +33,7 @@
             <!--  -->
             <!--  -->
             <div class="submit-btn-h">
-                <button type="button" onclick="submitForm()" class="btn btn-black">Submit</button>
+                <button type="Submit"  class="btn btn-black">Submit</button>
             </div>
             <!--  -->
         </form>

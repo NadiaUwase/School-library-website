@@ -441,6 +441,7 @@ form.contact {
 }
 
 .input-wrapper input,
+.input-wrapper select,
 .input-wrapper textarea {
     padding: 10px;
     width: 100%
