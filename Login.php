@@ -28,8 +28,8 @@
                             <!-- <li>
                                 <a href="./subjects.html">Subjects</a>
                             </li> -->
-                            <li class="active">
-                                <a class="active" href="./contact.html">Contact</a>
+                            <li class="">
+                                <a class="" href="./contact.html">Contact</a>
                             </li>
                             <!-- <li>
                                 <button class="btn btn-black btn-uppercase">login</button>

@@ -3,7 +3,7 @@ include '../connect.php';
 session_start();
 if(isset($_POST['login'])){
 	$username=$_POST['username'];
-	$password=md5($_POST['password']);
+	$password=$_POST['password'];
 	$sql="SELECT * FROM user_login where username='".$username."' and password='".$password."'";
 	$res = mysqli_query($con, $sql);
   	if (mysqli_num_rows($res) > 0) {
