@@ -7,11 +7,7 @@
             <!--  -->
             <div class="input-wrapper">
                 <label for="">Book id </label>
-                <input name="Book" type="text" placeholder="holder">
-            </div>
-            <div class="input-wrapper">
-                <label for=""> Edition </label>
-                <input name="Edition" type="text" placeholder="holder">
+                <input name="book" type="text" placeholder="holder">
             </div>
             <div class="input-wrapper">
                 <label for="">User id</label>

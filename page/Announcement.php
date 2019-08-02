@@ -7,12 +7,12 @@
             <!--  -->
             <div class="input-wrapper">
                 <label for="">Announcement Title</label>
-                <textarea rows="2" type="text" placeholder="holder"></textarea>
+                <textarea rows="2" type="text" placeholder="holder" name="title"></textarea>
             </div>
             
             <div class="input-wrapper">
                 <label for="">Details </label>
-                <textarea rows="8" type="text" placeholder="holder"></textarea>
+                <textarea rows="8" type="text" placeholder="holder" name="details"></textarea>
             </div>
            
             <!--  -->

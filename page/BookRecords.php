@@ -10,16 +10,20 @@
                 <input name="name" type="text" placeholder="holder">
             </div>
             <div class="input-wrapper">
+                <label for="">Edition</label>
+                <input name="edition" type="text" placeholder="holder">
+            </div>
+            <div class="input-wrapper">
                 <label for="">Department</label>
-                <input name="Department" type="text" placeholder="holder">
+                <input name="department" type="text" placeholder="holder">
             </div>
             <div class="input-wrapper">
                 <label for="">Category</label>
-                <input name="Category" type="text" placeholder="holder">
+                <input name="category" type="text" placeholder="holder">
             </div>
             <div class="input-wrapper">
                 <label for="">Author</label>
-                <input name="Author" type="text" placeholder="holder">
+                <input name="author" type="text" placeholder="holder">
             </div>
              <div class="input-wrapper">
                 <label for="">Date of arrival</label>
