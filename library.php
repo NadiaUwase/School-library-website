@@ -37,7 +37,7 @@ if (!isset($_SESSION['username'])) {
                                 <a class="active" href="./subjects.php">Subjects</a>
                             </li> -->
                             <li>
-                                <button class="btn btn-black btn-uppercase">logout</button>
+                                <button class="btn btn-black btn-uppercase" onclick="window.location.href = './php-script/logout.php';">logout</button>
                             </li>
                         </ul>
                     </div>
