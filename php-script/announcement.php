@@ -12,15 +12,13 @@ $title = mysqli_real_escape_string($con,htmlspecialchars($_POST['title']));
 
 
   
-  for ($i=0; $i <=$room ; $i++) { 
-  $sql="INSERT INTO room (`title`,`details`) VALUES ('$title', '$details')";
+  $sql="INSERT INTO announce (`title`,`details`) VALUES ('$title', '$details')";
   if(mysqli_query($con, $sql)){
 $msg="Records inserted successfully";
-header("Location:../backend/index.php");
+header("Location:../library.php");
 }
 else
 echo "ERROR: Could not able to execute $sql. " . mysqli_error($con);
-  }
 
 
 

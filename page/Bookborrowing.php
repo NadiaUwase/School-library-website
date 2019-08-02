@@ -8,13 +8,10 @@
             <div class="input-wrapper">
                 <label for="">Book id </label>
                 <input name="book" type="text" placeholder="holder">
-<<<<<<< HEAD
-=======
             </div>
             <div class="input-wrapper">
                 <label for=""> Edition </label>
                 <input name="edition" type="text" placeholder="holder">
->>>>>>> a599b981a8a5a5ffd99ac01fd071d836eb2c4889
             </div>
             <div class="input-wrapper">
                 <label for="">User id</label>

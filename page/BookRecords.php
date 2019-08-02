@@ -19,14 +19,11 @@
             </div>
             <div class="input-wrapper">
                 <label for="">Category</label>
-<<<<<<< HEAD
                 <input name="category" type="text" placeholder="holder">
-=======
                 <select name="category" >
                     <option selected disabled>Select category</option>
                     <option value="">category</option>
                 </select>
->>>>>>> a599b981a8a5a5ffd99ac01fd071d836eb2c4889
             </div>
             <div class="input-wrapper">
                 <label for="">Author</label>
@@ -44,7 +41,7 @@
             <!--  -->
             <!--  -->
             <div class="submit-btn-h">
-                <button type="button" onclick="submitForm()" class="btn btn-black">Submit</button>
+                <button type="Submit" class="btn btn-black" name="save">Submit</button>
             </div>
             <!--  -->
         </form>
