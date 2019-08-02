@@ -137,7 +137,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `names`, `id_number`, `phone`, `email`) VALUES
 (1, 'Valentin Baeni', '1234567890', '728101274', 'niyonshutivalentin@gmail.com'),
-(2, 'Nadia Baeni', '1234567891', '0788445566', 'nadia@gmail.com');
+(2, 'Nadia Baeni', '1234567891', '0788445566', 'bnadia@gmail.com');
 
 -- --------------------------------------------------------
 
