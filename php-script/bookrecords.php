@@ -33,7 +33,7 @@ $name = mysqli_real_escape_string($con,htmlspecialchars($_POST['name']));
 
 
   
-  $sql="INSERT INTO room (  `name`,  `edition`, `author` , `department`,  `category`,  `copies`,  `arrival_date`,  `book_id`
+  $sql="INSERT INTO books (  `name`,  `edition`, `author` , `department`,  `category`,  `copies`,  `arrival_date`,  `book_id`
 ) VALUES ('$name','$edition','$author', '$department', '$category', '$copies', '$arrivaldate', '$book_id')";
   if(mysqli_query($con, $sql)){
 $msg="Records inserted successfully";

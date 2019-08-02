@@ -7,15 +7,15 @@
             <!--  -->
             <div class="input-wrapper">
                 <label for="">Title</label>
-                <textarea rows="2" type="text" placeholder="holder"></textarea>
+                <textarea rows="2" type="text" placeholder="holder" name="title"></textarea>
             </div>
             <div class="input-wrapper">
                 <label for="">Department</label>
-                <input name="Department" type="text" placeholder="holder">
+                <input name="department" type="text" placeholder="holder">
             </div>
             <div class="input-wrapper">
-                <label for="">Concern</label>
-                <textarea rows="8" type="text" placeholder="holder"></textarea>
+                <label for="">Message</label>
+                <textarea rows="8" type="text" placeholder="holder" name="message"></textarea>
             </div>
             
             <!--  -->

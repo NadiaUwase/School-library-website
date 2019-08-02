@@ -9,12 +9,12 @@ $category= mysqli_real_escape_string($con,htmlspecialchars($_POST['category']));
 
 
   
-  for ($i=0; $i <=$room ; $i++) { 
-  $sql="INSERT INTO room (`category`) VALUES ('$category')";
+  
+  $sql="INSERT INTO category (`category`) VALUES ('$category')";
   if(mysqli_query($con, $sql)){
 $msg="Records inserted successfully";
 header("Location:../backend/index.php");
-}
+
 else
 echo "ERROR: Could not able to execute $sql. " . mysqli_error($con);
   }

@@ -20,12 +20,12 @@ if(isset($_POST['login'])){
 			
 		}
 		else{
-			$msg="username: david, and password: 1234";
+			$msg="username: Nadia, and password: 1234";
 			header("location:../login.php?msg=".$msg);
 		}
 	}
 	else{
-		$msg="username: david, and password: 1234";
+		$msg="username: Nadia, and password: 1234";
 			header("location:../login.php?msg=".$msg);
 	}
 	

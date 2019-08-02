@@ -23,12 +23,12 @@ $book = mysqli_real_escape_string($con,htmlspecialchars($_POST['book']));
 
 
   
-  for ($i=0; $i <=$room ; $i++) { 
-  $sql="INSERT INTO room (  `book_id`, `user_id`, `date_out`, `return_date`, `copie`) VALUES ('$book','$user','$issuedate', '$returndate', '$borrowedcopies')";
+  
+  $sql="INSERT INTO borrow (  `book_id`, `user_id`, `date_out`, `return_date`, `copie`) VALUES ('$book','$user','$issuedate', '$returndate', '$borrowedcopies')";
   if(mysqli_query($con, $sql)){
 $msg="Records inserted successfully";
 header("Location:../backend/index.php");
-}
+
 else
 echo "ERROR: Could not able to execute $sql. " . mysqli_error($con);
   }

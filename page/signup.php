@@ -20,10 +20,7 @@
                 <label for="">Email</label>
                 <input name="email" type="Email" placeholder="holder">
             </div>
-             <div class="input-wrapper">
-                <label for="">Password</label>
-                <input name="password" type="password" placeholder="holder">
-            </div>
+             
             
             <!--  -->
             <!--  -->
