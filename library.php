@@ -13,7 +13,7 @@ if (!isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Subjects</title>
+    <title>ALU Library</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -24,7 +24,7 @@ if (!isset($_SESSION['username'])) {
         
         <div class="nav-h">
             <div class="nav-logo">
-                <img src="./images/logo.svg" alt="">
+                <img src="./images/ALU_logo.png" alt="">
             </div>
             <div class="nav-nav">
                 <div>
@@ -33,9 +33,7 @@ if (!isset($_SESSION['username'])) {
                             <li>
                                 <a href="./index.php">Home</a>
                             </li>
-                            <!-- <li class="active">
-                                <a class="active" href="./subjects.php">Subjects</a>
-                            </li> -->
+                            
                             <li>
                                 <button class="btn btn-black btn-uppercase" onclick="window.location.href = './php-script/logout.php';">logout</button>
                             </li>
@@ -137,31 +135,31 @@ if (!isset($_SESSION['username'])) {
             $page=$_REQUEST['pg'];
             switch ($page) {
                 case 'borrow':
-                    include './page/Bookborrowing.php';
+                    include './page/bookborrowing.php';
                     break;
                 case 'return':
                     include './page/return.php';
                     break;
                 case 'record-book':
-                    include './page/BookRecords.php';
+                    include './page/bookRecords.php';
                     break;
                 case 'category':
-                    include './page/Category.php';
+                    include './page/category.php';
                     break;
                 case 'department':
-                    include './page/Department.php';
+                    include './page/department.php';
                     break;
                 case 'register-user':
                     include './page/signup.php';
                     break;
                 case 'register-event':
-                    include './page/Events.php';
+                    include './page/events.php';
                     break;
                 case 'register-announcement':
-                    include './page/Announcement.php';
+                    include './page/announcement.php';
                     break;
                 case 'suggestions':
-                    include './page/Suggestions.php';
+                    include './page/suggestions.php';
                     break;
                 default:
                     include 'front-page.php';

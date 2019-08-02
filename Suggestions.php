@@ -16,7 +16,7 @@
 
         <div class="nav-h">
             <div class="nav-logo">
-                <img src="./images/logo.svg" alt="">
+                <img src="./images/ALU_logo.png" alt="">
             </div>
             <div class="nav-nav">
                 <div>
@@ -25,9 +25,7 @@
                             <li>
                                 <a href="./index.html">Home</a>
                             </li>
-                            <li>
-                                <a href="./subjects.html">Subjects</a>
-                            </li>
+                            
                             <li class="active">
                                 <a class="active" href="./contact.html">Contact</a>
                             </li>

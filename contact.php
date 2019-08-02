@@ -16,20 +16,18 @@
 
         <div class="nav-h">
             <div class="nav-logo">
-                <img src="./images/logo.svg" alt="">
+                <img src="./images/ALU_logo.png" alt="">
             </div>
             <div class="nav-nav">
                 <div>
                     <div class="nav--links">
                         <ul>
                             <li>
-                                <a href="./index.html">Home</a>
+                                <a href="./index.php">Home</a>
                             </li>
-                            <li>
-                                <a href="./subjects.html">Subjects</a>
-                            </li>
+                           
                             <li class="active">
-                                <a class="active" href="./contact.html">Contact</a>
+                                <a class="active" href="./contact.php">Contact</a>
                             </li>
                             <li>
                                 <button class="btn btn-black btn-uppercase">login</button>

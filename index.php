@@ -16,20 +16,18 @@
         
         <div class="nav-h">
             <div class="nav-logo">
-                <img src="./images/logo.svg" alt="">
+                <img src="./images/ALU_logo.png" alt="">
             </div>
             <div class="nav-nav">
                 <div>
                     <div class="nav--links">
                         <ul>
-                            <!-- <li class="active">
-                                <a class="active" href="./index.php">Home</a>
-                            </li>
-                            <li>
-                                <a href="./subjects.php">Subjects</a>
-                            </li> -->
+                            
                             <li>
                                 <button class="btn btn-black btn-uppercase" onclick="window.location.href = 'Login.php';">login</button>
+                            </li>
+                            <li >
+                                <a  href="./contact.php">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -48,12 +46,13 @@
         <section class="back-image">
             <div class="overlay">
                 <div class="cont-h">
-                    <div>
-                        <img height="50px" src="./images/logo.svg" alt="Logo">
-                    </div>
-                    <p>Welcome to our school library!. LibrariesOur aim is to serve you as best as possible b Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos totam ipsum sed sit voluptas cum
+                    
+                    <p>Welcome to our school library! Our aim is to serve you as best as possible b Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos totam ipsum sed sit voluptas cum
                         aperiam quam sunt in beatae? Animi nesciunt necessitatibus quidem sint recusandae, similique
                         nostrum tempore culpa.
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                     </p>
                     <h1>School Library System</h1>
                     <div>

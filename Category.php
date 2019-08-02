@@ -16,7 +16,7 @@
 
         <div class="nav-h">
             <div class="nav-logo">
-                <img src="./images/logo.svg" alt="">
+                <img src="./images/ALU_logo.png" alt="">
             </div>
             <div class="nav-nav">
                 <div>
