@@ -48,7 +48,7 @@
     <!--  -->
     <main>
         <!-- top -->
-        <form name="login" class="contact">
+        <form name="login" class="contact" method="POST" action="./php-script/login.php">
             <!--  -->
             <div class="input-wrapper">
                 <label for="">User Name</label>
@@ -62,7 +62,7 @@
             <!--  -->
             <!--  -->
             <div class="submit-btn-h">
-                <button type="button" onclick="submitForm()" class="btn btn-black">Submit</button>
+                <button type="Submit" class="btn btn-black" name="login">Submit</button>
             </div>
             <!--  -->
         </form>

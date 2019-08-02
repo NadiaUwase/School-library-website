@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 01, 2019 at 07:13 PM
+-- Generation Time: Aug 02, 2019 at 10:31 AM
 -- Server version: 10.3.15-MariaDB
 -- PHP Version: 7.3.6
 
@@ -131,6 +131,14 @@ CREATE TABLE `users` (
   `email` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `names`, `id_number`, `phone`, `email`) VALUES
+(1, 'Valentin Baeni', '1234567890', '728101274', 'niyonshutivalentin@gmail.com'),
+(2, 'Nadia Baeni', '1234567891', '0788445566', 'nadia@gmail.com');
+
 -- --------------------------------------------------------
 
 --
@@ -143,6 +151,14 @@ CREATE TABLE `user_login` (
   `password` varchar(30) NOT NULL,
   `profile` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `user_login`
+--
+
+INSERT INTO `user_login` (`id`, `username`, `password`, `profile`) VALUES
+(1, 'tinox', '1234', 1),
+(2, 'nadia', '1234', 2);
 
 --
 -- Indexes for dumped tables
@@ -252,13 +268,13 @@ ALTER TABLE `suggestion`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `user_login`
 --
 ALTER TABLE `user_login`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

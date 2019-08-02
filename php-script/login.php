@@ -16,7 +16,7 @@ if(isset($_POST['login'])){
 			
 
 			# code...
-			header("location:../index.php");
+			header("location:../library.php");
 			
 		}
 		else{
