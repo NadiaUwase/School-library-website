@@ -15,7 +15,7 @@
             </div>
             <div class="input-wrapper">
                 <label for="">Organiser</label>
-                <input name="ganiser" type="text" placeholder="holder">
+                <input name="oganiser" type="text" placeholder="holder">
             </div>
             <div class="input-wrapper">
                 <label for="">Date of the event</label>

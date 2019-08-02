@@ -8,7 +8,7 @@
             
             <div class="input-wrapper">
                 <label for="">Department</label>
-                <input name="Department" type="text" placeholder="holder">
+                <input name="department" type="text" placeholder="holder">
             </div>
 
             <!--  -->

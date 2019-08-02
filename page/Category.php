@@ -8,7 +8,7 @@
             
             <div class="input-wrapper">
                 <label for="">Category name</label>
-                <input name="Category" type="text" placeholder="holder">
+                <input name="category" type="text" placeholder="holder">
             </div>
             
             <!--  -->
