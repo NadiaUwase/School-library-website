@@ -3,7 +3,7 @@
     <!-- subject highlight computer-->
     <div class="subj-h subj-view">
         <!-- below is the code for recording new books in the library-->
-        <form name="Bookrecords" class="contact">
+        <form name="Bookrecords" class="contact" method="POST" action="./php-script/bookrecords.php">
             <!--  -->
             <div class="input-wrapper">
                 <label for="">Name of the book</label>
@@ -19,7 +19,14 @@
             </div>
             <div class="input-wrapper">
                 <label for="">Category</label>
+<<<<<<< HEAD
                 <input name="category" type="text" placeholder="holder">
+=======
+                <select name="category" >
+                    <option selected disabled>Select category</option>
+                    <option value="">category</option>
+                </select>
+>>>>>>> a599b981a8a5a5ffd99ac01fd071d836eb2c4889
             </div>
             <div class="input-wrapper">
                 <label for="">Author</label>

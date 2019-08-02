@@ -2,7 +2,7 @@
     <!--  -->
     <!-- subject highlight computer-->
     <div class="subj-h subj-view">
-        <form name="signup" class="contact">
+        <form name="signup" class="contact" method="POST" action="./php-script/signup.php">
             <!--  -->
             <div class="input-wrapper">
                 <label for="">Full Name</label>
@@ -14,11 +14,11 @@
             </div>
             <div class="input-wrapper">
                 <label for="">Phone number</label>
-                <input name="Phone" type="Phone" placeholder="holder">
+                <input name="phone" type="Phone" placeholder="holder">
             </div>
             <div class="input-wrapper">
                 <label for="">Email</label>
-                <input name="Email" type="Email" placeholder="holder">
+                <input name="email" type="Email" placeholder="holder">
             </div>
              <div class="input-wrapper">
                 <label for="">Password</label>
@@ -28,7 +28,7 @@
             <!--  -->
             <!--  -->
             <div class="submit-btn-h">
-                <button type="button" onclick="submitForm()" class="btn btn-black">Submit</button>
+                <button type="Submit" class="btn btn-black">Submit</button>
             </div>
             <!--  -->
         </form>

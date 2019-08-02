@@ -3,7 +3,7 @@
     <!-- subject highlight computer-->
     <div class="subj-h subj-view">
         <!-- the code below is for the users to be able to enter their suggestions through a form -->
-        <form name="suggestions" class="contact">
+        <form name="suggestions" class="contact" method="POST" action="./php-script/suggestions.php"> 
             <!--  -->
             <div class="input-wrapper">
                 <label for="">Title</label>
@@ -20,7 +20,7 @@
             
             <!--  -->
             <div class="submit-btn-h">
-                <button type="button" onclick="submitForm()" class="btn btn-black">Submit</button>
+                <button type="Submit"  class="btn btn-black">Submit</button>
             </div>
             <!--  -->
         </form>
